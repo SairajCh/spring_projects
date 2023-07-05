@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: sairaj
+    password: Sairaj@15
+    url: jdbc:mysql://localhost:3306/jrtp
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    
+server:
+  port: 8081
+    

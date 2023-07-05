@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: ashokit-rest-api
+
+app:
+  messages:
+    welcome: Welcome to Ashok it
+    greetMsg: Good Morning
+    

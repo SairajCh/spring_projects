@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script src="/webjars/jquery/3.6.4/jquery.min.js"></script>
+
+<Script>
+	$(document).ready(function() {
+		$("#submitBtn").click(function(e) {
+
+			//var name = $("#name").val();
+			//alert(name);
+
+			$.ajax({
+				type : "GET",
+				url : "/msg",
+				data : {
+					name : $("#username").val()
+				},
+
+				success : function(result) {
+					//alert(result);
+
+					$("#msgDiv").html(result);
+				},
+
+				error : function(result) {
+					alert('error');
+				}
+
+			});
+
+		});
+
+		$("#cname").on("change",function(e){
+
+			//alert("drop-down-changed");
+			$.ajax({
+				type:"GET",
+				url:"/cmsg",
+				data:{
+					
+					cname:$("#cname").val()
+				},
+				success:function(data){
+					$("#dropDownDiv").html(data);
+				}
+				
+			})
+			
+			
+			
+		});
+
+	});
+</Script>
+</head>
+<body>
+
+
+
+	Enter your name:
+	<input type="text" name="name" id="username" />
+	<input type="button" value="Submit" id="submitBtn" />
+
+
+	<hr />
+
+	<div id="msgDiv"></div>
+	<hr />
+
+
+	<select id="cname">
+		<option>select</option>
+		<option>India</option>
+		<option>USA</option>
+		<option>Canada</option>
+
+	</select>
+	
+	<div id="dropDownDiv"></div>
+
+
+
+
+
+
+
+
+</body>
+</html>
