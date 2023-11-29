@@ -1,8 +1,8 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.core.classpathVariable.ASPECTJRT_LIB=C\:/Users/jfsd/spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64/sts-bundle/sts-3.9.6.RELEASE/plugins/org.aspectj.runtime_1.9.0.201805281636.jar
 org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Users/jfsd/spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64/sts-bundle/sts-3.9.6.RELEASE/
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_202/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk-11.0.15.1/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk-11.0.15.1/lib/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Users/jfsd/spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64/sts-bundle/sts-3.9.6.RELEASE/plugins/org.junit_4.12.0.v201504281640/
 org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/jfsd/.m2/repository

@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: sairaj
+    password: Sairaj@15
+    driver-class-name: com.mysql.jdbc.cj.Driver
+    url: jdbc:mysql://localhost:3306/iesdb
+    
+  jpa:
+    hibernate:
+     ddl-auto: create
+    show-sql: true
+  
+  mail:
+    host: smtp.gmail.com
+    password: hhjlojtqafunmeet
+    port: 587
+    properties:
+      mail:
+       smtp:
+        auth: true
+        starttls:
+          enable: true
+    username: sairajchanagani15@gmail.com 
+       
+    
+    

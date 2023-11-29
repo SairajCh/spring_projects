@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="IES_Admin_Module"/>
-<aop-project name="05_SB_REST_API"/>
+<aop-project name="02_AR_API"/>
 <aop-project name="02_Mini_Project"/>
+<aop-project name="RMS_App"/>
+<aop-project name="Admin_API"/>
+<aop-project name="kafka-producer-wikimedia"/>
+<aop-project name="05_SB_REST_API"/>
+<aop-project name="springboot-kafka-real-world-project"/>
+<aop-project name="IESDemo_Admin_Module"/>
+<aop-project name="Mockito_Demo"/>
 <aop-project name="01_Reports_App"/>
 <aop-project name="03_SB_AJAX_POC"/>
+<aop-project name="sprinboot-kafka"/>
 <aop-project name="04_SB_Blog_App"/>
 </aop-reference-model>
